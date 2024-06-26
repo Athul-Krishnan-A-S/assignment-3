@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p class="logo">Automotive.</p>
+            <ul class="nav-links">
+                <li>HOME</li>
+                <li>SERVICES</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
+            <div class="hamburger" onclick="hamburger()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <nav class="mobile-nav hidden">
+            <ul class="nav-links-mobile">
+                <li>HOME</li>
+                <li>SERVICES</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container main-container">
+        <div class="container-column">
+            <div class="col-1">
+                <div>
+                    <img src="assets/pngwing.com.png">
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Automotive</p>
+                <p>Perfect Platform for Exchange</p>
+            </div>
+        </div>
+    </div>
+    <div class="collections-container">
+        <p>COLLECTIONS</p>
+    </div>
+    <div class="container collection-container">
+        <div class="cards">
+            <div class="card card-1" id="card_1">
+                <img src="assets/200.webp">
+                <div>
+                    <p class="orange-text"><strong>KTM DUKE 200</strong> </p>
+                    <p><strong>Mileage (City) :</strong> 33 kmpl</p>
+                    <p><strong>Engine Type : </strong> Single Cylinder, Liquid Cooled, DOHC, FI Engine</p>
+                    <p><strong>Max Power : </strong> 25 PS @ 10,000 rpm</p>
+                    <p><strong>Fuel Capacity : </strong> 13.4 L</p>
+                </div>
+            </div>
+            <div class="card card-1" id="card_2">
+                <img src="assets/250.webp">
+                <div>
+                    <p class="orange-text"><strong>KTM DUKE 250</strong> </p>
+                    <p><strong>Mileage (City) :</strong> 33 kmpl</p>
+                    <p><strong>Engine Type : </strong> Single Cylinder, Liquid Cooled, DOHC, FI Engine</p>
+                    <p><strong>Max Power : </strong> 25 PS @ 10,000 rpm</p>
+                    <p><strong>Fuel Capacity : </strong> 13.4 L</p>
+                </div>
+            </div>
+            <div class="card card-1" id="card_3">
+                <img src="assets/390.jpg">
+                <div>
+                    <p class="orange-text"><strong>KTM DUKE 390</strong> </p>
+                    <p><strong>Mileage (City) :</strong> 33 kmpl</p>
+                    <p><strong>Engine Type : </strong> Single Cylinder, Liquid Cooled, DOHC, FI Engine</p>
+                    <p><strong>Max Power : </strong> 25 PS @ 10,000 rpm</p>
+                    <p><strong>Fuel Capacity : </strong> 13.4 L</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>All rights reserved to &copy; Automotive 2K24</p>
+    </footer>
+</body>
+
+</html>
